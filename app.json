@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Mamamat",
+    "slug": "mamamat",
+    "scheme": "mamamat",
+    "description": "Mamamat App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "runtimeVersion": "1.0.0",
+      "bundleIdentifier": "com.famedya.mamamat",
+      "buildNumber": "14"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.famedya.mamamat",
+      "versionCode": 7,
+      "runtimeVersion": "1.0.0",
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4896c77a-5813-4564-9534-4012342a4e06"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4896c77a-5813-4564-9534-4012342a4e06"
+      }
+    },
+    "owner": "fatihates",
+    "plugins": [
+      "expo-localization"
+    ]
+  }
+}
